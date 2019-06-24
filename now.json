@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "nextjs-storyblok",
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "build": {
+    "env": {
+      "SB_API_TOKEN": "@sb_api_token"
+    }
+  }
+}
